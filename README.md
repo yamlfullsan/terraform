@@ -1,11 +1,12 @@
 # terraform
 
-**Instalar terraform.
+1.-Instalar terraform.
 
-**Crear un directorio llamado terraform (se recomienda en /opt/ . Dentro del directorio estarán los archivos de este git.
+2.-Crear un directorio llamado terraform (se recomienda en /opt/ ). Dentro del directorio estarán los archivos de este git.
 
-**El árbol de directorios detro de el directorio terraform debera verse asi:
-# tree /opt/terraform/
+3.-El árbol de directorios detro de el directorio terraform debera verse asi:
+
+#tree /opt/terraform/
 .
 ├── elk
 │   ├── elasticsearch
@@ -20,8 +21,8 @@
 ├── elk.tf
 
 
-**Modificar archivo elk.tf --> modificar rutas host_path si el directorio terraform no se creo en /opt. 
-**Si el directorio si se creo en /opt/terraform no se tendrian que realizar modificaciones. 
+4.-Modificar archivo elk.tf --> modificar rutas host_path si el directorio terraform no se creo en /opt. Si el directorio si se creo en /opt/terraform no se tendrian que realizar modificaciones. 
 
 #sudo terraform plan
+
 #sudo terraform init
