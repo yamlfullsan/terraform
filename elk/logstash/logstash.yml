@@ -1,0 +1,3 @@
+#======logstash.yml=====
+xpack.management.enabled: false
+xpack.monitoring.enabled: false

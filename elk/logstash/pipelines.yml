@@ -1,0 +1,4 @@
+#===========pipelines.yml=========
+- pipeline.id: main
+  path.config: "/usr/share/logstash/pipeline/bin/"
+  pipeline.workers: 3
